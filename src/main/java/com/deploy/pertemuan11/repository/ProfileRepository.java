@@ -1,4 +1,7 @@
 package com.deploy.pertemuan11.repository;
 
-public class ProfileRepository {
+import com.deploy.pertemuan11.model.Profile;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProfileRepository extends JpaRepository<Profile, String> {
 }
